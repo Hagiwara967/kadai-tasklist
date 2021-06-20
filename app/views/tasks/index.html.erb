@@ -6,7 +6,7 @@
     <li><%= link_to task.id, task %> :<%= task.status %> &gt; <%= task.content %></li>
   <% end %>
 </ul>
-<%= link_to '新規タスクの投稿', new_task_path %>
+　　 <%= link_to '新規タスクの投稿', new_task_path %>
      <%= link_to 'logout', logout_path,method: :delete, class: 'btn btn-lg btn-primary' %>
 <% else %>
       <%= link_to 'Sign up now!', signup_path, class: 'btn btn-lg btn-primary' %>
